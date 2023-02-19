@@ -5,6 +5,3 @@ class git_test:
     @property
     def get_project_name(self):
         print("The Project name is {0}".format(self.project_name))
-
-git_obj = git_test("Git Project Test")
-git_obj.get_project_name
